@@ -75,7 +75,7 @@ $(document).ready(function () {
 
         console.log(trainName);
 
-        // First Time (pushed back 1 year to make sure it comes before current time)
+        // First Time
         var firstTimeConverted = moment(firstTrain, "HH:mm").subtract(1, "years");
 
         // Difference between the times
